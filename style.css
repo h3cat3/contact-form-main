@@ -1,0 +1,75 @@
+:root {
+--Green200: hsl(148, 38%, 91%);
+--Green600: hsl(169, 82%, 27%);
+--Red: hsl(0, 66%, 54%);
+--White: hsl(0, 0%, 100%);
+--Grey500: hsl(186, 15%, 59%);
+--Grey900: hsl(187, 24%, 22%);
+}
+@font-face {
+    font-family: Karla;
+    src: url(Karla/Karla-VariableFont_wght.ttf);
+}
+
+*{
+    border: none;
+    box-sizing: border-box;
+}
+fieldset{padding:0;}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Green200);
+    margin: 0 auto;
+   
+}
+main{
+    background-color: var(--White);
+    border-radius: 15px;
+    padding: 2rem;
+    width: 90%;    
+}
+.box-input {
+    border: 1px solid var(--Grey900);
+    padding: 0.5rem;
+    width: 100%;
+}
+.grup{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#message{
+    height: 10rem;
+}
+.error{
+    display:block;
+    color: var(--Red);
+}
+.button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--Green600);
+    color: var(--White);
+}
+#modal-box{
+    background-color: var(--Grey900);
+    border-radius: 10px;
+    color: var(--White);
+    margin-top: 0;
+    font-size: 1rem;
+}
+@media (min-width: 1024px) {
+    
+    .grup{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+main{
+    width: 60%;
+}
+}

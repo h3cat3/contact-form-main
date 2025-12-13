@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Contact form</title>
+</head>
+<body>
+  <main>
+    <h1>Contact Us</h1>
+    <form id="myform" autocomplete="on" novalidate>
+     
+        <fieldset class="grup">
+        <div>
+          <label for="firstname">First Name</label>
+          <input class="box-input" type="text" name="first-name" id="firstname" required>
+        </div>
+        <div>
+          <label for="lastname">Last Name</label>
+          <input class="box-input" type="text" name="last-name" id="lastname" required>
+        </div>
+        </fieldset>
+
+      <label for="email">Email Address</label>
+      <input class="box-input" type="email" name="email" id="email" required>
+      
+      <fieldset  id="query">
+       
+        <legend>Query Type</legend>
+        <div class="grup">
+        <label class="box-input">
+          <input type="radio" id="general-enquiry" name="query-type" value="general" required>
+          General Enquiry
+        </label>
+        <label class="box-input">
+          <input type="radio" id="support-request" name="query-type" value="support">
+          Support Request
+        </label>
+        </div>
+      </fieldset>
+
+      <label for="message">Message</label>
+      <textarea class="box-input" id="message" name="message" required></textarea>
+
+<div>
+      <label id="consent-container">
+      <input type="checkbox" name="consent" id="consent"  required>
+      I consent to being contacted by the team</label>
+      
+</div>
+      <button class="button" type="submit">Submit</button>
+     
+    </form>
+  </main>
+
+  <dialog id="modal-box">
+    <div class="modal">
+      <h1><img src="/images/icon-success-check.svg" alt="" >  Message Sent!</h1>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </div>
+  </dialog>
+<script defer src="main.js"></script>
+
+  
+  
+
+  
+
+  
+  
+  
+</body>
+</html>
