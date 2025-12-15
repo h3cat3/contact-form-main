@@ -12,9 +12,9 @@ const consentInput =document.getElementById('consent');
 const dialogBox = document.getElementById('modal-box')
 
 //check if email is valid
-function isValidEmail(email) {
+function isValidEmail(e) {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return regex.test(email);
+    return regex.test(e);
 }
 //create span for error message
 function createSpan(input,message){
@@ -62,10 +62,10 @@ function notGotConsent(name,box, message) {
 }
 //checkes if the email is filled and valid
 function isNotEmail(email, message){
-    removeSpan(email);
-    
-    
-    if(!isValidEmail(email) && !isEmpty(email)){
+    removeSpan(email);  
+    console.log(!isValidEmail(email.value));
+    console.log(!isEmpty(email))  ;
+    if(!isValidEmail(email.value) && !isEmpty(email)){
         createSpan(email,message);
         return true;
     }

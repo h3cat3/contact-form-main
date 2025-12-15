@@ -33,9 +33,16 @@ main{
     width: 90%;    
 }
 .box-input {
+    border-radius: 5px;
     border: 1px solid var(--Grey900);
     padding: 0.5rem;
     width: 100%;
+}
+.box-input:active {
+    background-color: var(--Green200);
+}
+.box-input:hover{
+    border: 2px solid var(--Green600);
 }
 .grup{
     display: flex;
@@ -50,10 +57,15 @@ main{
     color: var(--Red);
 }
 .button {
+    border-radius: 5px;
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: var(--Green600);
     color: var(--White);
+}
+
+.button:hover{
+    background-color: var(--Grey900);
 }
 #modal-box{
     background-color: var(--Grey900);

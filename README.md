@@ -12,9 +12,7 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -33,13 +31,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/ScreenShots/Galaxy%20S21-1765628143462.jpeg)
+![](/ScreenShots/Nest%20Hub%20Max-1765628020316.jpeg)
+![](/ScreenShots/Nest%20Hub%20Max-1765628181643.jpeg)
+![](/ScreenShots/Nest%20Hub%20Max-1765793629891.jpeg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/h3cat3/contact-form-main)
+- Live Site URL:(https://h3cat3.github.io/contact-form-main/)
 
 ## My process
 
@@ -49,36 +50,21 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
+- JavaScrit
 
 ### What I learned
 
 This project is beeing build whit accesibbility in minde, using the corect html semantic.
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I tink I use to much repetitive code sometimes.
 
 ### Useful resources
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@h3cat3](https://www.frontendmentor.io/profile/h3cat3)
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
-# contact-form-main
 
