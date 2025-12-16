@@ -24,34 +24,34 @@
           <input class="box-input" type="text" name="last-name" id="lastname" required>
         </div>
       </div>
+      <div>
+        <label for="email">Email Address</label>
+        <input class="box-input" type="email" name="email" id="email" required>
+      </div>
 
-      <label for="email">Email Address</label>
-      <input class="box-input" type="email" name="email" id="email" required>
-      
       <fieldset  id="query">
-       
         <legend>Query Type</legend>
         <div class="grup">
-        <label class="box-input">
-          <input type="radio" id="general-enquiry" name="query-type" value="general" required>
-          General Enquiry
-        </label>
-        <label class="box-input">
-          <input type="radio" id="support-request" name="query-type" value="support">
-          Support Request
-        </label>
+          <div class="box-input">
+            <input type="radio" id="general-enquiry" name="query-type" value="general" required>
+            <label >  General Enquiry</label>
+          </div>
+          <div class="box-input">
+            <input type="radio" id="support-request" name="query-type" value="support">
+            <label >  Support Request</label>
+          </div>      
         </div>
       </fieldset>
 
-      <label for="message">Message</label>
-      <textarea class="box-input" id="message" name="message" required></textarea>
+      <div>
+        <label for="message">Message</label>
+        <textarea class="box-input" id="message" name="message" required></textarea>
+      </div>
+      <div id="consent-container">
+        <input type="checkbox" name="consent" id="consent"  required>
+        <label>  I consent to being contacted by the team</label>
+      </div>
 
-<div>
-      <label id="consent-container">
-      <input type="checkbox" name="consent" id="consent"  required>
-      I consent to being contacted by the team</label>
-      
-</div>
       <button class="button" type="submit">Submit</button>
      
     </form>
@@ -63,15 +63,8 @@
       <p>Thanks for completing the form. We'll be in touch soon!</p>
     </div>
   </dialog>
-<script defer src="main.js"></script>
-
   
-  
-
-  
-
-  
-  
+<script defer src="main.js"></script>  
   
 </body>
 </html>
