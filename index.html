@@ -32,13 +32,13 @@
       <fieldset  id="query">
         <legend>Query Type *</legend>
         <div class="grup">
-          <div class="box-input">
-            <input type="radio" id="general-enquiry" name="query-type" value="general" required>
+          <div class="box-input reverse">
             <label >  General Enquiry</label>
+            <input type="radio" id="general-enquiry" name="query-type" value="general" required>
           </div>
-          <div class="box-input">
-            <input type="radio" id="support-request" name="query-type" value="support">
+          <div class="box-input reverse">
             <label >  Support Request</label>
+            <input type="radio" id="support-request" name="query-type" value="support">
           </div>      
         </div>
       </fieldset>
@@ -47,9 +47,9 @@
         <label for="message">Message *</label>
         <textarea class="box-input" id="message" name="message" required></textarea>
       </div>
-      <div id="consent-container">
-        <input type="checkbox" name="consent" id="consent"  required>
+      <div id="consent-container" class="reverse">
         <label>  I consent to being contacted by the team *</label>
+        <input type="checkbox" name="consent" id="consent"  required>
       </div>
 
       <button class="button" type="submit">Submit</button>

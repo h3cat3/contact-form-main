@@ -49,6 +49,12 @@ main{
 .box-input:hover{
     border: 2px solid var(--Green600);
 }
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 0.5rem;
+}
 .grup{
     display: flex;
     flex-direction: column;
