@@ -34,6 +34,9 @@ main{
     padding: 2rem;
     width: 90%;    
 }
+.box-input:user-invalid{
+    border-color: var(--Red);
+}
 .box-input {
     border-radius: 5px;
     border: 1px solid var(--Grey900);
