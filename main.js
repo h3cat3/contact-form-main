@@ -63,8 +63,6 @@ function notGotConsent(name,box, message) {
 //checkes if the email is filled and valid
 function isNotEmail(email, message){
     removeSpan(email);  
-    console.log(!isValidEmail(email.value));
-    console.log(!isEmpty(email))  ;
     if(!isValidEmail(email.value) && !isEmpty(email)){
         createSpan(email,message);
         return true;
@@ -76,14 +74,10 @@ function isComplete() {
    let allValid = true
     //check all text inputs
     allInput.forEach(input => {isEmpty(input,"This field is required")?allValid=false:null})
-    console.log(allValid);
     isEmpty(textMessage,"This field is required")?allValid=false:null;
-    console.log(allValid);
     isNotChecked(queryType,"Please select a query type")?allValid=false:null;
     notGotConsent(consentInput,consentBox,"To submit this form, please consent to being contacted")?allValid=false:null;
-    console.log(allValid);
     isNotEmail(email,"Please enter a valid email address")?allValid=false:null;
-    console.log(allValid);
     return allValid;
 }
 

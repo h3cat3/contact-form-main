@@ -43,7 +43,7 @@ main{
     padding: 0.5rem;
     width: 100%;
 }
-.box-input:active {
+.box-input:active, .box-input:focus {
     background-color: var(--Green200);
 }
 .box-input:hover{
